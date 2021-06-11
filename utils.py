@@ -15,8 +15,10 @@ from bionet3d import *
 def parse_args():
     parser = argparse.ArgumentParser(
         description='3D ConvLSTM training',
-        add_help=True)   
+        add_help=True)  
     
+    parser.add_argument("--simu_path", '-simu',       default='.', type=str,
+                        help="Path pointing to the folder where the MC simulations are kept in .npy format")    
     parser.add_argument("--n_samples", '-n',          default=0, type=float,  
                         help='Number of training samples')
     parser.add_argument("--patch_size", '-ps',        default=64, type=int, 
