@@ -22,7 +22,7 @@ from configparser import ConfigParser
 # Parser parameters
 args = parse_args()
 # Get the cases paths
-cases = list_cases(simu_path, exclude=[])
+cases = list_cases(args.simu_path, exclude=[])
 # Instantiate the selected model and indicate whether it's UNet based or not
 model, unet = instantiate_model(args.model_name)
 # Create train and validation dataloaders
