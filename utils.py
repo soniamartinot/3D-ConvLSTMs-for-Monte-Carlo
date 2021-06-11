@@ -8,6 +8,8 @@ from mc_dataset_infinite_patch3D import *
 from convlstm3D import *
 from stack_convlstm3D import *
 from losses import * 
+from lunet4_bn_leakyrely_3d import *
+from bionet3d import *
 
 
 def parse_args():
