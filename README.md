@@ -20,7 +20,9 @@ This is the official repository for the article ***High-particle simulation of M
 
 ## Data
 
-The Monte-Carlo dataset that we created and used for this research is publically available [here](https://hosting.therapanacea.eu/data/miccai2021/), and you will find its comprehensive description [here](https://github.com/soniamartinot/3D-ConvLSTMs-for-Monte-Carlo/blob/master/readme_monte_carlo_vmat_dataset.pdf)
+The Monte-Carlo dataset that we created and used for this research:
+- is publically available [here](https://hosting.therapanacea.eu/data/miccai2021/), 
+- has a comprehensive description [here](https://github.com/soniamartinot/3D-ConvLSTMs-for-Monte-Carlo/blob/master/readme_monte_carlo_vmat_dataset.pdf).
 
 ## Training 
 
